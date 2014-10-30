@@ -10,5 +10,10 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="$(MSBuildThisFileDirectory)App.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\UserProfile.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Pages\HomePage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Pages\ScrollToDemoPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Pages\ProfilePage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Pages\StylesDemoPage.cs" />
   </ItemGroup>
 </Project>
